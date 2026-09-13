@@ -372,48 +372,22 @@ footer{
     margin-top:40px;
 }
 
-/* =========================
-   RESPONSIVO
-========================= */
-
-@media(max-width:768px){
+@media (max-width: 480px){
 
     .logo h1{
-        font-size:2rem;
-    }
-
-    .banner{
-        height:250px;
+        font-size:1.8rem;
     }
 
     .banner-conteudo h2{
-        font-size:2rem;
+        font-size:1.8rem;
+    }
+
+    .banner{
+        height:350px;
     }
 
     nav a{
-        display:block;
-        width:220px;
-        margin:10px auto;
-    }
-
-    .linha-contato{
-        flex-direction:column;
-        gap:5px;
-    }
-
-    .titulo{
-        min-width:auto;
-    }
-
-    .icone{
-        width:auto;
-    }
-
-    .valor{
-        width:100%;
-    }
-
-    .contato .botao{
-        max-width:100%;
+        font-size:13px;
+        padding:8px 12px;
     }
 }
